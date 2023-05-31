@@ -1,0 +1,26 @@
+html {
+  font-size: 20px; /* px means 'pixels': the base font size is now 10 pixels high  */
+  font-family:cursive;
+  background-color: #edffc4;
+}
+body {
+  width: 1500px;/*body的寬*/
+  margin: 0 auto;/*body的位置*/
+  background-color: #facb88;
+  padding: 0 20px 20px 20px;/*body內部的邊界*/
+  border: 5px solid black;
+}
+h1,h2,h3 {
+  color: rgb(255, 0, 0);
+  text-align: center;
+  text-shadow: 3px 3px 5px rgb(82, 0, 0);/*陰影偏移右 左 散度*/
+  padding: 20px 0;
+  margin: 0;
+}
+p {
+  color: green;
+  width: 500px;/*邊界寬度*/
+  border: 5px solid rgb(171, 211, 243);/*border:邊框 solid:實線邊框 大小顏色*/
+  line-height: 1;/*字體高*/
+  letter-spacing: 1px/*字體寬*/
+}s
